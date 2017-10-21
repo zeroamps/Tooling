@@ -11,3 +11,5 @@ This repository is created just for playing with GitHub.
 
 `git add .` stages files for commit to your local repository.
 `git add .` is equivalent to `git add --all` and `git add -A`.
+
+`git commit -m "Commit message"` commits the tracked changes and prepares them to be pushed to a remote repository. `-m` parameter is equivalent to `--message` parameter.
