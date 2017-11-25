@@ -1,4 +1,4 @@
-# Hello, World!
+# Hello, GitHub!
 This repository is created just for playing with GitHub.
 
 ## Git commands for daily use
