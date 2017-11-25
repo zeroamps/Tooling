@@ -23,3 +23,9 @@ This repository is created just for playing with GitHub.
 `git status` obtains a summary of which files have changes that are staged for the next commit.
 
 `git commit -m "Commit message"` or `git commit --message "Commit message"` commits the tracked changes and prepares them to be pushed to a remote repository.
+
+***
+
+`git pull` fetches from and integrate with another repository or a local branch.
+
+`git push` updates remote refs along with associated objects.
