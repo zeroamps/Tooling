@@ -28,7 +28,7 @@ There are three config levels --local, --global, --system.
 
 `git status` obtains a summary of which files have changes that are staged for the next commit.
 
-`git commit -m|--message "Commit message"` commits the tracked changes and prepares them to be pushed to a remote repository.
+`git commit -m|--message "Commit message"` commits the tracked changes.
 
 ***
 
