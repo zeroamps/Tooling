@@ -43,3 +43,10 @@ There are three config levels --local, --global, --system.
 `git branch -l -a|-all` lists all of the branches in your local and remote repository.
 
 `git branch -l -r|--remotes` lists all of the branches in your remote repository.
+
+`git branch <branch>` creates a new branch called <branch>. Note: This does not check out the new branch.
+  
+`git branch -d|--delete <branch>` deletes the specified branch. Note: This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
+
+`git branch -D <branch>` or `git branch -d -f|--force <branch>` forces delete the specified branch, even if it has unmerged changes.
+ 
