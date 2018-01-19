@@ -13,9 +13,9 @@ This repository is created just for playing with GitHub.
 
 There are three config levels --local, --global, --system.
 
-`git config user.name "Your Name"` or `git config --local user.name "Your Name"` sets a user name that git will associate with locally created commits.
+`git config user.name "Your Name"` sets a user name that git will associate with locally created commits.
 
-`git config user.email "Your email"` or `git config --local user.email "Your email"` sets a user email that git will associate with locally created commits. 
+`git config user.email "Your email"` sets a user email that git will associate with locally created commits. 
 
 `git config --global user.name "Your Name"` sets a user name that git will associate with globally created commits.
 
