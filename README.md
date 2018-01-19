@@ -9,7 +9,7 @@ This repository is created just for playing with GitHub.
 
 ***
 
-`git config -l` or `git config --list` lists all variables set in config file, along with their values.
+`git config -l|--list` lists all variables set in config file, along with their values.
 
 There are three config levels --local, --global, --system.
 
