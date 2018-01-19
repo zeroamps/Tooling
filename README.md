@@ -38,7 +38,7 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git branch -l` or `git branch --list` or `git branch` lists all of the branches in your local repository.
+`git branch -l|--list` or `git branch` lists all of the branches in your local repository.
 
 `git branch -l -a|-all` lists all of the branches in your local and remote repository.
 
