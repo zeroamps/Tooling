@@ -26,9 +26,11 @@ There are three config levels --local, --global, --system.
 `git add .` stages files for commit to your local repository.
 `git add .` is equivalent to `git add --all` and `git add -A`.
 
-`git status` obtains a summary of which files have changes that are staged for the next commit.
-
 `git commit -m|--message "Commit message"` commits the tracked changes.
+
+***
+
+`git status` obtains a summary of which files have changes that are staged for the next commit.
 
 ***
 
