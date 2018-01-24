@@ -49,4 +49,10 @@ There are three config levels --local, --global, --system.
 `git branch -d|--delete <branch>` deletes the specified branch. Note: This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
 
 `git branch -D <branch>` or `git branch -d -f|--force <branch>` forces delete the specified branch, even if it has unmerged changes.
+
+***
+
+`git checkout <branchname>` switches branches is a straightforward operation.
+
+ 
  
