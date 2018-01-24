@@ -52,7 +52,7 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git checkout <branchname>` switches branches is a straightforward operation.
+`git checkout <branchname>|<commit>|<file>` switches branches is a straightforward operation.
 
  
  
