@@ -33,6 +33,10 @@ There are three config levels --local, --global, --system.
 
 `git status` obtains a summary of which files have changes that are staged for the next commit.
 
+`git log --graph` draws a text-based graphical representation of the commit history on the left hand side of the output.
+
+`git log --oneline` this is a shorthand for `git log --pretty=oneline --abbrev-commit` used together.
+
 ***
 
 `git pull` fetches from and integrate with another repository or a local branch.
