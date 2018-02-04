@@ -57,9 +57,9 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git rebase <branch>` from the current branch to the target.
+`git rebase <branch>` from the current branch to the target (NOT leaving your history).
 
-`git merge <branch>` from the source branch to the current branch.
+`git merge <branch>` from the source branch to the current branch (leaving your history).
 
 ***
 
