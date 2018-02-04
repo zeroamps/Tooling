@@ -12,4 +12,4 @@ Because nuget.exe is the command-line utility you have to install it manually.
 
 ***
 
-`nuget restore <solution>`
+`NuGet restore [<solution> | <packages.config file> | <Microsoft Build project>]` restores NuGet packages.
