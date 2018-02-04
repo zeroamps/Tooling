@@ -39,12 +39,6 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git pull` fetches from and integrate with another repository or a local branch.
-
-`git push` updates remote refs along with associated objects.
-
-***
-
 `git branch -l|--list` or `git branch` lists all of the branches in your local repository.
 
 `git branch -l -a|-all` lists all of the branches in your local and remote repository.
@@ -66,3 +60,10 @@ There are three config levels --local, --global, --system.
 `git rebase <branch>` from the current branch to the target.
 
 `git merge <branch>` from the source branch to the current branch.
+
+***
+
+`git pull` fetches from and integrate with another repository or a local branch.
+
+`git push` updates remote refs along with associated objects.
+
