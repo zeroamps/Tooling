@@ -59,4 +59,10 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git checkout <branchname>|<commit>|<file>` switches branches, commits or files is a straightforward operation.
+`git checkout <branch>|<commit>|<file>` switches branches, commits or files is a straightforward operation.
+
+***
+
+`git rebase <branch>` from the current branch to the target.
+
+`git merge <branch>` from the source branch to the current branch.
