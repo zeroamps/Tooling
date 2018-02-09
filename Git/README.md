@@ -29,6 +29,8 @@ There are three config levels --local, --global, --system.
 
 `git commit -m|--message "Commit message"` commits the tracked changes.
 
+`git commit -a|--all -m|--message` tells to automatically stage files that have been modified and deleted before committing.
+
 ***
 
 `git status` obtains a summary of which files have changes that are staged for the next commit.
