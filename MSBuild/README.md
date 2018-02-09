@@ -8,6 +8,6 @@ The easiest way to start using MSBuild installed with Microsoft Visual Studio fr
 
 ***
 
-`msbuild solution.sln /t:Rebuild /p:Configuration=Release /p:Platform="Any CPU"` rebuilds solution in the Release configuration for the Any CPU platform.
+`msbuild solution.sln /t:Rebuild /p:Configuration=Release /p:Platform="Any CPU"` rebuilds a solution in the Release configuration for the Any CPU platform.
 
 ***
