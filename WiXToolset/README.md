@@ -1,1 +1,1 @@
-
+# Hello WiX Toolset!
