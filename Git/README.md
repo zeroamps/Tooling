@@ -75,5 +75,5 @@ There are three config levels --local, --global, --system.
 
 ***
 
-I recommend to watch this course on Pluralsight [How Git Works](https://app.pluralsight.com/library/courses/how-git-works/)
+I recommend to watch this course on Pluralsight [How Git Works](https://app.pluralsight.com/library/courses/how-git-works/).
 
