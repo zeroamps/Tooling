@@ -4,7 +4,7 @@ This repository is created just for playing with Git.
 
 ***
 
-For public repositories I use of course [GitHub](https://github.com) and for private repositories I use [Bitbucket](https://bitbucket.org) which is free up to 5 team members.
+For public repositories I use of course [GitHub](https://github.com) and for private repositories I use [Bitbucket](https://bitbucket.org) which is free up to 5 team members. I recommend to watch this course on Pluralsight [How Git Works](https://app.pluralsight.com/library/courses/how-git-works/).
 
 ## Git commands for daily use
 
@@ -72,8 +72,4 @@ There are three config levels --local, --global, --system.
 `git pull` fetches from and integrate with another repository or a local branch.
 
 `git push` updates remote refs along with associated objects.
-
-***
-
-I recommend to watch this course on Pluralsight [How Git Works](https://app.pluralsight.com/library/courses/how-git-works/).
 
