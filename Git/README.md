@@ -2,6 +2,10 @@
 
 This repository is created just for playing with Git.
 
+***
+
+For public repositories I use of course [GitHub](https://github.com) and for private repositories I use [Bitbucket](https://bitbucket.org) which is free up to 5 team members.
+
 ## Git commands for daily use
 
 `git init` creates an empty Git repository or reinitializes an existing one.
