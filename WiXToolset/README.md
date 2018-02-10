@@ -6,7 +6,7 @@ This repository is created just for playing with WiX Toolset.
 
 1. Download the latest version here [WiX Toolset](http://wixtoolset.org).
 2. Add the WiX "%WIX%bin" folder to your PATH environment variable.
-3. If you want to create WiX packages using Visual Studio also install the extension for Visual Studio.
+3. If you want to create WiX packages using Visual Studio install also the extension for Visual Studio.
 
 ***
 
