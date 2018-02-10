@@ -17,4 +17,4 @@ This repository is created just for playing with WiX Toolset.
 
 ***
 
-* msiexec.exe is tool which gives you full control over the installation process.
+* msiexec.exe is tool which gives you full control over the installation process (it's part of Windows installation).
