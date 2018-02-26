@@ -75,11 +75,11 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git remote`
+`git remote` lists all remote repositories.
 
-`git remote add <name> <url>`
+`git remote add <name> <url>` adds a new remote repository.
 
-`git remote show <name>`
+`git remote show <name>` shows some information about the remote repository.
 
 ***
 
