@@ -57,6 +57,10 @@ There are three config levels --local, --global, --system.
 
 `git branch -D <branch>` or `git branch -d -f|--force <branch>` forces delete the specified branch, even if it has unmerged changes.
 
+`git branch -u <repository>/<remotebranch>` links the current local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
+
+`git branch -u <repository>/<remotebranch> <localbranch>` links a local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
+
 ***
 
 `git checkout <branch>|<commit>|<file>` switches branches, commits or files is a straightforward operation.
@@ -85,8 +89,8 @@ There are three config levels --local, --global, --system.
 
 `git push` pushes commits made on your local branch to a remote repository.
 
-`git push <repository> <branch>` pushes commits made on your local branch to a remote branch in the remote repository.
+`git push <repository> <remotebranch>` pushes commits made on your local branch to a remote branch in the remote repository.
 
-`git push -u|--set-upstream <repository> <branch>` pushes commits made on your local branch to a remote branch in the remote repository and links your local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
+`git push -u|--set-upstream <repository> <remotebranch>` pushes commits made on your local branch to a remote branch in the remote repository and links your local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
 
-`git push <repository> -d|--delete <branch>` deletes a branch from the remote repository.
+`git push <repository> -d|--delete <remotebranch>` deletes a branch from the remote repository.
