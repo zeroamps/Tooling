@@ -71,5 +71,7 @@ There are three config levels --local, --global, --system.
 
 `git pull` fetches from and integrate with another repository or a local branch.
 
-`git push` updates remote refs along with associated objects.
+`git push` pushes commits made on your local branch to a remote repository.
+
+`git push <repository> -d|--delete <branch>` deletes a branch from the remote repository.
 
