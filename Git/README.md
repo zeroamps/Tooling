@@ -61,6 +61,8 @@ There are three config levels --local, --global, --system.
 
 `git checkout <branch>|<commit>|<file>` switches branches, commits or files is a straightforward operation.
 
+`git checkout -b <branch>` creates a new branch and then checks it out.
+
 ***
 
 `git rebase <branch>` from the current branch to the target (NOT leaving your history).
@@ -69,9 +71,22 @@ There are three config levels --local, --global, --system.
 
 ***
 
+`git remote`
+
+`git remote add <name> <url>`
+
+`git remote show <name>`
+
+***
+
 `git pull` fetches from and integrate with another repository or a local branch.
+
+***
 
 `git push` pushes commits made on your local branch to a remote repository.
 
-`git push <repository> -d|--delete <branch>` deletes a branch from the remote repository.
+`git push <repository> <branch>` pushes commits made on your local branch to a remote branch in the remote repository.
 
+`git push -u|--set-upstream <repository> <branch>` pushes commits made on your local branch to a remote branch in the remote repository.
+
+`git push <repository> -d|--delete <branch>` deletes a branch from the remote repository.
