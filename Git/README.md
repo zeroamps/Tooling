@@ -12,6 +12,8 @@ For public repositories I use of course [GitHub](https://github.com) and for pri
 
 `git clone https://github.com/torvalds/linux.git` clones a repository into a new directory.
 
+`git clone <url> <directory>` clones a repository into a specific directory.
+
 ***
 
 `git config -l|--list` lists all variables set in config file, along with their values.
