@@ -11,4 +11,6 @@ IIS Express is a lightweight, self-contained version of IIS optimized for develo
 
 ***
 
-`iisexpress` to run the first website in the default configuration file. The default configuration is the IISExpress\config\applicationhost.config file that is located in the user's Documents folder. If there is no site defined in the configuration file it throws Invalid Index error.
+`iisexpress` to run the first website in the default configuration file. The default configuration is the IISExpress\config\applicationhost.config file that is located in the user's Documents folder. If there is no site defined in the configuration file it throws the Invalid Index error.
+
+`iisexpress /site:<WebSite>` to run the <WebSite> defined in the default configuration file. If there is no such a site it throws an error.
