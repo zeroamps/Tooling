@@ -37,6 +37,10 @@ There are three config levels --local, --global, --system.
 
 `git commit -a|--all -m|--message` tells to automatically stage files that have been modified and deleted before committing.
 
+`git commit --amend` commits the tracked changes to the last commit.
+
+`git commit --amend --no-edit` commits the tracked changes to the last commit without changing the message.
+
 ***
 
 `git status` obtains a summary of which files have changes that are staged for the next commit.
