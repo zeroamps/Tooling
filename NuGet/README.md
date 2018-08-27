@@ -18,18 +18,18 @@ Because nuget.exe is the command-line utility you have to install it manually.
 
 `nuget list` gets all available NuGet packages from all available sources.
 
-`nuget list -source <source>` gets all available NuGet packages from the specific source.
+`nuget list -source <source>` gets all available NuGet packages from the source.
 
-`nuget list -source <source> -allversions` gets all versions of each available NuGet package from the specific source.
+`nuget list -source <source> -allversions` gets all versions of each available NuGet package from the source.
 
-`nuget install <package>`
+`nuget install <package>` installs the latest version of a package.
 
-`nuget install <package> -version <version>`
+`nuget install <package> -version <version>` installs the specific version of a package.
 
-`nuget install <package> -version <version> -source <source>`
+`nuget install <package> -version <version> -source <source>` installs the specific version of a package from the source.
 
-`nuget push <package> -source <source> -ApiKey <apikey>`
+`nuget push <package> -source <source> -ApiKey <apikey>` publishes a package to the source.
 
-`nuget locals all -list`
+`nuget locals all -list` gets all local caches.
 
-`nuget locals all -clear`
+`nuget locals all -clear` clears all local caches.
