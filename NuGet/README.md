@@ -14,13 +14,13 @@ Because nuget.exe is the command-line utility you have to install it manually.
 
 `nuget restore [<solution> | <packages.config file> | <Microsoft Build project>]` restores NuGet packages.
 
-`nuget sources`
+`nuget sources` gets all available NuGet package sources.
 
-`nuget list`
+`nuget list` gets all available NuGet packages from all available sources.
 
-`nuget list -source <source>`
+`nuget list -source <source>` gets all available NuGet packages from the specific source.
 
-`nuget list -source <source> -allversions`
+`nuget list -source <source> -allversions` gets all versions of each available NuGet package from the specific source.
 
 `nuget install <package>`
 
