@@ -55,7 +55,7 @@ There are three config levels --local, --global, --system.
 
 `git diff` shows changes between commits.
 
-`git diff <branch> <branch> -- <file>` how changes between commits of specific branches and a file.
+`git diff <branch> <branch> -- <file>` shows changes between commits of specific branches and a file.
 
 ***
 
@@ -101,9 +101,14 @@ There are three config levels --local, --global, --system.
 
 `git remote show <name>` shows some information about the remote repository.
 
+`git remote prune origin`
+
 ***
+`git fetch`
 
 `git pull` fetches from and integrate with another repository or a local branch.
+
+`git pull origin .`
 
 ***
 
@@ -118,10 +123,6 @@ There are three config levels --local, --global, --system.
 ***
 
 `git clean -i, -d, -n, -x, -f`
-
-`git pull origin .`
-`git fetch`
-`git remote prune origin`
 
 `git reset --soft --mixed --hard`
 
