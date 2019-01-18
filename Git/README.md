@@ -67,6 +67,9 @@ There are three config levels --local, --global, --system.
 
 `git branch -u <repository>/<remotebranch> <localbranch>` links a local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
 
+`git branch --contains <commit>` lists branches which contain the specified commit.
+`git branch -r --contains <commit>` lists branches which contain the specified commit and remote tracking branches as well.
+
 ***
 
 `git checkout <branch>|<commit>|<file>` switches branches, commits or files is a straightforward operation.
@@ -78,6 +81,7 @@ There are three config levels --local, --global, --system.
 `git rebase <branch>` from the current branch to the target (NOT leaving your history).
 
 `git merge <branch>` from the source branch to the current branch (leaving your history).
+`git merge --no-commit` prevents the MERGE COMMIT to occur.
 
 ***
 
@@ -101,13 +105,9 @@ There are three config levels --local, --global, --system.
 
 `git push <repository> -d|--delete <remotebranch>` deletes a branch from the remote repository.
 
+***
 
 `git clean -i, -d, -n, -x, -f`
-
-`git branch --contains <commit>`
-`git branch -r --contains <commit>`
-
-`git merge --no-commit`
 
 `git pull origin .`
 `git fetch`
