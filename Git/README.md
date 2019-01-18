@@ -100,3 +100,24 @@ There are three config levels --local, --global, --system.
 `git push -u|--set-upstream <repository> <remotebranch>` pushes commits made on your local branch to a remote branch in the remote repository and links your local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
 
 `git push <repository> -d|--delete <remotebranch>` deletes a branch from the remote repository.
+
+
+`git clean -i, -d, -n, -x, -f`
+
+`git branch --contains <commit>`
+`git branch -r --contains <commit>`
+
+`git merge --no-commit`
+
+`git pull origin .`
+`git fetch`
+`git remote prune origin`
+
+`git diff`
+
+`git diff <branch> <branch> -- <file>`
+
+`git reset --soft --mixed --hard`
+ 
+`git reflog`
+`git blame`
