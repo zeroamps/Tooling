@@ -49,6 +49,14 @@ There are three config levels --local, --global, --system.
 
 `git log --oneline` this is a shorthand for `git log --pretty=oneline --abbrev-commit` used together.
 
+`git reflog`
+
+`git blame`
+
+`git diff`
+
+`git diff <branch> <branch> -- <file>`
+
 ***
 
 `git branch -l|--list` or `git branch` lists all of the branches in your local repository.
@@ -115,11 +123,5 @@ There are three config levels --local, --global, --system.
 `git fetch`
 `git remote prune origin`
 
-`git diff`
-
-`git diff <branch> <branch> -- <file>`
-
 `git reset --soft --mixed --hard`
- 
-`git reflog`
-`git blame`
+
