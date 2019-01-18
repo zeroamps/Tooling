@@ -49,13 +49,13 @@ There are three config levels --local, --global, --system.
 
 `git log --oneline` this is a shorthand for `git log --pretty=oneline --abbrev-commit` used together.
 
-`git reflog`
+`git reflog` lists a record of all commits that are or were referenced in your repo at any time.
 
-`git blame`
+`git blame` helps you determine who made changes to a file.
 
-`git diff`
+`git diff` shows changes between commits.
 
-`git diff <branch> <branch> -- <file>`
+`git diff <branch> <branch> -- <file>` how changes between commits of specific branches and a file.
 
 ***
 
