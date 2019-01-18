@@ -59,6 +59,12 @@ There are three config levels --local, --global, --system.
 
 ***
 
+`git clean -i, -d, -n, -x, -f` TODO
+
+`git reset --soft --mixed --hard` TODO
+
+***
+
 `git branch -l|--list` or `git branch` lists all of the branches in your local repository.
 
 `git branch -l -a|-all` lists all of the branches in your local and remote repository.
@@ -101,14 +107,14 @@ There are three config levels --local, --global, --system.
 
 `git remote show <name>` shows some information about the remote repository.
 
-`git remote prune origin`
+`git remote prune origin` deletes all stale remote-tracking branches under <name>. These stale branches have already been removed from the remote repository referenced by <name>, but are still locally available in remotes/<name>.
 
 ***
-`git fetch`
+`git fetch` only downloads new data from a remote repository, but it doesn't integrate any of this new data into your working files.
 
 `git pull` fetches from and integrate with another repository or a local branch.
 
-`git pull origin .`
+`git pull origin <remotebranch>` fetches a copy of the master branch from the original repository, and merges it with the current branch you have checked out.
 
 ***
 
@@ -119,10 +125,3 @@ There are three config levels --local, --global, --system.
 `git push -u|--set-upstream <repository> <remotebranch>` pushes commits made on your local branch to a remote branch in the remote repository and links your local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
 
 `git push <repository> -d|--delete <remotebranch>` deletes a branch from the remote repository.
-
-***
-
-`git clean -i, -d, -n, -x, -f`
-
-`git reset --soft --mixed --hard`
-
