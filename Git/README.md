@@ -59,9 +59,9 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git clean -i, -d, -n, -x, -f` TODO
+`git clean -d -x -f` cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
 
-`git reset --soft --mixed --hard` TODO
+`git reset --soft --mixed --hard` enjoy :-)
 
 ***
 
