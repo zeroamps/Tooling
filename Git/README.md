@@ -68,6 +68,7 @@ There are three config levels --local, --global, --system.
 `git branch -u <repository>/<remotebranch> <localbranch>` links a local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
 
 `git branch --contains <commit>` lists branches which contain the specified commit.
+
 `git branch -r --contains <commit>` lists branches which contain the specified commit and remote tracking branches as well.
 
 ***
@@ -81,6 +82,7 @@ There are three config levels --local, --global, --system.
 `git rebase <branch>` from the current branch to the target (NOT leaving your history).
 
 `git merge <branch>` from the source branch to the current branch (leaving your history).
+
 `git merge --no-commit` prevents the MERGE COMMIT to occur.
 
 ***
