@@ -109,7 +109,7 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git stash (save)
+`git stash (save)`
 
 `git stash --include-untracked`
 
