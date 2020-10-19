@@ -109,19 +109,19 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git stash (save)`
+`git stash (save)` temporarily shelves changes you've made to your working copy so you can work on something else.
 
-`git stash --include-untracked`
+`git stash --include-untracked` tells git stash to also stash your untracked files.
 
-`git stash list`
+`git stash list` you can run git stash several times to create multiple stashes, and then use git stash list.
 
-`git stash pop`
+`git stash pop` git stash pop will re-apply the most recently created stash.
 
-`git stash apply`
+`git stash apply` like pop, but do not remove the state from the stash list.
 
-`git stash drop` 
+`git stash drop` if you decide you no longer need a particular stash, you can delete it with git stash drop.
 
-`git stash clear`
+`git stash clear` or you can delete all stashes.
 
 ***
 
