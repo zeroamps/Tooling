@@ -20,4 +20,6 @@ There is necessary to install https://nodejs.org/ before starting.
 
 `npm version 1.1.1` changes the version in the package.json file.
 
-`npm info angular versions`
+`npm view <package>` shows data about a package. Aliases: info, show, v.
+
+`npm view <package> versions` shows all versions for a package.
