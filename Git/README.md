@@ -41,6 +41,10 @@ There are three config levels --local, --global, --system.
 
 `git commit --amend --no-edit` commits the tracked changes to the last commit without changing the message.
 
+`git commit --amend --no-edit --date="now"` changes the timestamp of an old commit.
+
+`git commit --amend --no-edit --reset-author` resets the author of an old commit.
+
 ***
 
 `git status` obtains a summary of which files have changes that are staged for the next commit.
