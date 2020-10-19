@@ -18,7 +18,7 @@ There is necessary to install https://nodejs.org/ before starting.
 
 `npm cache clear --force` cleans the local npm cache repository. 
 
-`npm version 1.1.1` changes the version in the package.json file.
+`npm version <version>` changes the version in the package.json file.
 
 `npm view <package>` shows data about a package. Aliases: info, show, v.
 
