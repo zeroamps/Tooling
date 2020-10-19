@@ -63,7 +63,7 @@ There are three config levels --local, --global, --system.
 
 ***
 
-`git clean -d -x -f` cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
+`git clean -xfd` cleans the working tree by recursively removing files that are not under version control, starting from the current directory.
 
 `git revert <commit>` reverts some existing commits. A new commit (reverted) is created.
 
