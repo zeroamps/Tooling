@@ -129,3 +129,7 @@ There are three config levels --local, --global, --system.
 `git push -u|--set-upstream <repository> <remotebranch>` pushes commits made on your local branch to a remote branch in the remote repository and links your local branch with a remote branch then you can just use `git push` and `git pull` without specifying a repository or a branch.
 
 `git push <repository> -d|--delete <remotebranch>` deletes a branch from the remote repository.
+
+***
+
+`.gitignore` is a file in which you specifies intentionally untracked files to ignore.
