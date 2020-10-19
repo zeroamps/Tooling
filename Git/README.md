@@ -105,6 +105,8 @@ There are three config levels --local, --global, --system.
 
 `git merge --no-commit` prevents the MERGE COMMIT to occur.
 
+`git cherry-pick <commit>` enables a commit to be picked by reference and appended to the current working HEAD.
+
 ***
 
 `git remote` lists all remote repositories.
