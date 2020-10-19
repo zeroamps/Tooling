@@ -8,7 +8,11 @@ There is necessary to install https://nodejs.org/ before starting.
 
 ***
 
-`npm install`
+`npm init`
+
+`npm init -y`
+
+`npm install <package>` this command installs a package.
 
 `npm run <script>`
 
