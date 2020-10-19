@@ -109,6 +109,22 @@ There are three config levels --local, --global, --system.
 
 ***
 
+`git stash (save)
+
+`git stash --include-untracked`
+
+`git stash list`
+
+`git stash pop`
+
+`git stash apply`
+
+`git stash drop` 
+
+`git stash clear`
+
+***
+
 `git remote` lists all remote repositories.
 
 `git remote add <name> <url>` adds a new remote repository.
