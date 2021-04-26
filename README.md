@@ -1,7 +1,7 @@
 # Hello Coding Tools!
 This repository is created just for playing with coding tools.
 
-* [Git](https://github.com/chovanj/Tooling/tree/master/Git)
+* [Git](/Tooling/tree/master/Git)
 * [IISExpress](https://github.com/chovanj/Tooling/tree/master/IISExpress)
 * [MSBuild](https://github.com/chovanj/Tooling/tree/master/MSBuild)
 * [NPM](https://github.com/chovanj/Tooling/tree/master/NPM)
